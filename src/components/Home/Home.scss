@@ -1,19 +1,24 @@
 .Home {
   display: flex;
-  width: 100vw;
-  height: 100vh;
-  min-height: 100vh;
-  background-image: url('../../assets/main-background.jpg');
-  background-repeat: no-repeat;
-  background-position: center center;
-  background-size: cover;
   color: white;
 
   &__content {
     display: flex;
     flex-direction: row;
-    justify-content: space-between;
     padding: 100px 50px;
     width: 100%;
+    justify-content: space-between;
+
+    @media (max-width: 1350px) {
+      padding: 80px 50px;
+    }
+
+    @media (max-width: 1250px) {
+      padding: 70px 50px;
+    }
+
+    @media (max-width: 480px) {
+      flex-direction: column;
+    }
   }
 }

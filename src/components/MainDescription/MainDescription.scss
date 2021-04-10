@@ -1,0 +1,131 @@
+.MainDescription {
+  display: flex;
+  flex-direction: column;
+
+  &__title {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-bottom: 20px;
+
+    @media (max-width: 480px) {
+      align-items: start;
+    }
+
+    &-top {
+      font-size: 30px;
+      font-weight: bold;
+
+      @media (max-width: 480px) {
+        margin-bottom: 10px;
+      }
+    }
+
+    &-bottom {
+      font-size: 24px;
+      font-weight: 400;
+
+      @media (max-width: 1350px) {
+        font-size: 18px;
+      }
+    }
+  }
+
+  .bottom-line {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+
+    @media (max-width: 480px) {
+      flex-direction: column;
+    }
+  }
+
+  .top-block {
+    align-self: center;
+  }
+
+  .descriptionBlock {
+    display: flex;
+    flex-direction: row;
+
+    @media (max-width: 480px) {
+      margin-bottom: 20px;
+    }
+
+    &__logo-container {
+      align-self: center;
+
+      &-image {
+        width: 200px;
+        height: 200px;
+
+        @media (max-width: 480px) {
+          width: 100px;
+          height: 100px;
+        }
+      }
+
+      &-image-center {
+        width: 100px;
+        height: 100px;
+      }
+    }
+
+    &__text-container {
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      margin-left: 20px;
+
+      &__title {
+        font-size: 24px;
+        font-weight: bold;
+        margin-bottom: 20px;
+
+        @media (max-width: 1350px) {
+          font-size: 20px;
+        }
+
+        @media (max-width: 480px) {
+          margin-bottom: 10px;
+          font-size: 20px;
+        }
+      }
+
+      &__text {
+        color: #9e9fa6;
+        font-size: 16px;
+
+        @media (max-width: 1350px) {
+          font-size: 14px;
+        }
+
+        @media (max-width: 1250px) {
+          font-size: 12px;
+        }
+
+        @media (max-width: 480px) {
+          font-size: 12px;
+        }
+      }
+    }
+  }
+
+  .cash-block-mobile {
+    display: none;
+    text-align: center;
+    color: #f6901b;
+    margin-bottom: 30px;
+
+    @media (max-width: 480px) {
+      display: block;
+    }
+  }
+
+  .cash-block-desktop {
+    @media (max-width: 480px) {
+      display: none;
+    }
+  }
+}
