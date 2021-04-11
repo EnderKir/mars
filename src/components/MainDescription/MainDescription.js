@@ -11,7 +11,7 @@ const MainDescription = () => {
         <div className="MainDescription">
             <div className="MainDescription__title">
                 <div className="MainDescription__title-top">Бизнес TO THE MOON</div>
-                <div className="MainDescription__title-bottom">Современные инновационные продукты, приносящие ежедневную прибыть</div>
+                <div className="MainDescription__title-bottom">Современные инновационные продукты, приносящие ежедневную прибыль</div>
             </div>
 
             <div className="descriptionBlock top-block">
