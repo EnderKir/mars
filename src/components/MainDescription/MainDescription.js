@@ -68,7 +68,7 @@ const MainDescription = () => {
 
                 <div className="descriptionBlock top-block cash-block-mobile">
                     <div className="MainInfo__button-container">
-                        <a href="https://mars.tothemars.finance/auth/signup/?refId=481468777" target="_blank">Полетели на MARS</a>
+                        <a href="https://mars.tothemars.finance/auth/signup/?refId=481468777" target="_blank">Перейти на платформу</a>
                     </div>
                 </div>
             </div>

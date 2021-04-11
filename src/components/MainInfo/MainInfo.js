@@ -15,7 +15,7 @@ const MainInfo = () => {
             <h2 className="MainInfo__h2">Получай пассивный доход от 96% <br />годовых c TO THE MARS</h2>
 
             <div className="MainInfo__button-container">
-                <a href="https://mars.tothemars.finance/auth/signup/?refId=481468777" target="_blank">Полетели на MARS</a>
+                <a href="https://mars.tothemars.finance/auth/signup/?refId=481468777" target="_blank">Перейти на платформу</a>
             </div>
         </div>
     );

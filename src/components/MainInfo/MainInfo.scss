@@ -39,13 +39,13 @@
       border-radius: 15px;
       background-color: red;
       color: white;
-      padding: 1em 1.5em;
+      padding: 1em 1em;
       text-decoration: none;
       text-transform: uppercase;
       box-shadow: 0 5px 0 darkred;
 
       @media (max-width: 480px) {
-        padding: 1em 3em;
+        padding: 1em 1em;
       }
     }
 
