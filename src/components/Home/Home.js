@@ -2,6 +2,7 @@ import React from "react";
 import './Home.scss';
 import MainInfo from "../MainInfo/MainInfo";
 import MainDescription from "../MainDescription/MainDescription";
+import HowToStart from "../HowToStart/HowToStart";
 
 function Home() {
     return (
@@ -11,6 +12,8 @@ function Home() {
 
                 <MainDescription />
             </div>
+
+            <HowToStart />
         </div>
     );
 }

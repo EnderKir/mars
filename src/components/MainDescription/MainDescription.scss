@@ -17,7 +17,7 @@
       font-weight: bold;
 
       @media (max-width: 480px) {
-        margin-bottom: 10px;
+        margin-bottom: 15px;
       }
     }
 
@@ -27,6 +27,10 @@
 
       @media (max-width: 1350px) {
         font-size: 18px;
+      }
+
+      @media (max-width: 480px) {
+        margin-bottom: 30px;
       }
     }
   }
@@ -50,7 +54,7 @@
     flex-direction: row;
 
     @media (max-width: 480px) {
-      margin-bottom: 20px;
+      margin-bottom: 40px;
     }
 
     &__logo-container {

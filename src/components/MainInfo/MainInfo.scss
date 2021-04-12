@@ -43,6 +43,7 @@
       text-decoration: none;
       text-transform: uppercase;
       box-shadow: 0 5px 0 darkred;
+      font-family: "Ubuntu", cursive;
 
       @media (max-width: 480px) {
         padding: 1em 1em;
@@ -51,6 +52,7 @@
 
     a:hover {
       color: black;
+      box-shadow: inset 0 0 0 2em var(--hover);
     }
 
     a:active {
