@@ -1,7 +1,7 @@
 .Home {
   display: flex;
   flex-direction: column;
-  padding: 100px 50px;
+  padding: 20px 50px;
   color: white;
 
   @media (max-width: 1350px) {
@@ -9,7 +9,7 @@
   }
 
   @media (max-width: 1250px) {
-    padding: 70px 50px;
+    padding: 30px 50px;
   }
 
   &__content {
@@ -17,11 +17,6 @@
     flex-direction: row;
     width: 100%;
     justify-content: space-between;
-
-    background-image: url('../../assets/main-background.jpg');
-    background-repeat: no-repeat;
-    background-position: center center;
-    background-size: 100vw 100%;
 
     @media (max-width: 480px) {
       flex-direction: column;
