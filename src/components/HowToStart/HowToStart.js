@@ -16,7 +16,7 @@ const HowToStart = () => {
 
             <div className="HowToStart__block">
                 <div className="HowToStart__block__text">
-                    1. После перехода на новую платформу необходимо зарегистрировать кошелек <b>MetaMask</b>и
+                    1. После перехода на новую платформу необходимо зарегистрировать кошелек <b>MetaMask</b> и
                     подключить к
                     нему сеть Binance Smart Chain. Ссылка на инструкцию по регистрации <b>MetaMask</b><br/>
                     <a href="https://medium.com/@sn_69588/установка-и-подключение-metamask-к-сети-binance-smart-chain-и-ручное-добавление-токенов-12f37e393e77
@@ -51,7 +51,7 @@ const HowToStart = () => {
 
             <div className="HowToStart__block">
                 <div className="HowToStart__block__text">
-                    4. Далее необходимо подключить кошелек MetaMask к бирже DODO. Как это сделать описали в инструкции <br />
+                    4. Далее необходимо подключить кошелек <b>MetaMask</b> к бирже <b>DODO</b>. Как это сделать описали в инструкции <br />
                     <a href="https://medium.com/@sn_69588/инструкция-по-использованию-протокола-обмена-dodo-2df39dfe4d1b
 " target="_blank" className="HowToStart__block__link">Инструкция</a>
                 </div>
