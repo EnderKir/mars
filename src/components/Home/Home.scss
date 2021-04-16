@@ -1,26 +1,39 @@
 .Home {
   display: flex;
   flex-direction: column;
-  padding: 20px 50px;
   color: white;
   font-family: 'Verdana', sans-serif;
 
-  @media (max-width: 1350px) {
-    padding: 80px 50px;
-  }
-
-  @media (max-width: 1250px) {
-    padding: 30px 50px;
-  }
-
-  &__content {
+  &__mainInfo {
     display: flex;
-    flex-direction: row;
-    width: 100%;
-    justify-content: space-between;
+    flex-direction: column;
+    background-image: url('../../assets/bg.jpg');
+    background-repeat: no-repeat;
+    background-position: top center;
+    background-size: cover;
+    height: 100vh;
 
     @media (max-width: 480px) {
       flex-direction: column;
+    }
+
+    .MobileHeader {
+      display: none;
+      justify-content: flex-end;
+      margin-top: 10px;
+      margin-right: 10px;
+      margin-bottom: 20px;
+
+      @media (max-width: 768px) {
+        display: flex;
+      }
+
+      &__list {
+        &__icon {
+          width: 50px;
+          height: 50px;
+        }
+      }
     }
   }
 }

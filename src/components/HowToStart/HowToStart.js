@@ -7,9 +7,9 @@ import Wallet from "../../assets/wallet.svg";
 import Checked from "../../assets/checked.svg";
 
 
-const HowToStart = () => {
+const HowToStart = ({refToElement}) => {
     return (
-        <div className="HowToStart">
+        <div className="HowToStart" ref={refToElement}>
             <div className="HowToStart__title">Начало работы</div>
 
             <div className="HowToStart__wrapper">

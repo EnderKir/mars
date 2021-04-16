@@ -1,6 +1,8 @@
 .MainInfo {
   display: flex;
   flex-direction: column;
+  margin-left: 50px;
+  margin-right: 50px;
 
   @media (max-width: 480px) {
     margin-bottom: 60px;
@@ -8,7 +10,7 @@
 
   &__h1 {
     font-weight: bold;
-    font-size: 50px;
+    font-size: 55px;
 
     @media (max-width: 1350px) {
       font-size: 45px;
@@ -20,7 +22,7 @@
   }
 
   &__h2 {
-    font-size: 36px;
+    font-size: 40px;
     font-weight: 300;
 
     @media (max-width: 480px) {
@@ -37,12 +39,12 @@
 
     a {
       border-radius: 15px;
-      background-color: red;
+      background: linear-gradient(to right, #FF00FF 0%, #9932CC 100%);;
       color: white;
       padding: 1em 1em;
       text-decoration: none;
       text-transform: uppercase;
-      box-shadow: 0 5px 0 darkred;
+      box-shadow: 0 5px 0 #800080;
 
       @media (max-width: 480px) {
         padding: 1em 1em;

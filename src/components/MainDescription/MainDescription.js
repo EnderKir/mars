@@ -6,9 +6,9 @@ import Stock from "../../assets/stock-market.svg";
 import MoneyFlow from "../../assets/money-flow.svg";
 
 
-const MainDescription = () => {
+const MainDescription = ({ refToElement }) => {
     return (
-        <div className="MainDescription">
+        <div className="MainDescription" ref={refToElement}>
             <div className="MainDescription__title">
                 <div className="MainDescription__title-top">Бизнес TO THE MOON</div>
                 <div className="MainDescription__title-bottom">Современные инновационные продукты, приносящие ежедневную прибыль</div>
