@@ -1,4 +1,4 @@
-import React, {useMemo, useRef} from "react";
+import React, { useRef } from "react";
 import Menu from '@material-ui/core/Menu';
 import MenuItem from '@material-ui/core/MenuItem';
 import './Home.scss';
@@ -6,11 +6,13 @@ import MainInfo from "../MainInfo/MainInfo";
 import MainDescription from "../MainDescription/MainDescription";
 import HowToStart from "../HowToStart/HowToStart";
 import Header from "../Header/Header";
+import Support from "../Support/Support";
 import List from "../../assets/list.svg";
 
 const Home = () => {
     const MainDescriptionRef = useRef(null);
     const HowToStartRef = useRef(null);
+    const LinksRef = useRef(null);
 
     const scrollToMainDescription = () => {
         MainDescriptionRef.current.scrollIntoView({behavior: 'smooth'});
@@ -19,6 +21,11 @@ const Home = () => {
 
     const scrollToHowToStart = () => {
         HowToStartRef.current.scrollIntoView({behavior: 'smooth'});
+        handleMenuClose();
+    };
+
+    const scrollToLinks = () => {
+        LinksRef.current.scrollIntoView({behavior: 'smooth'});
         handleMenuClose();
     };
 
@@ -35,7 +42,7 @@ const Home = () => {
     return (
         <div className="Home">
             <div className="Home__mainInfo">
-                <Header scrollToMainDescription={scrollToMainDescription} scrollToHowToStart={scrollToHowToStart} />
+                <Header scrollToMainDescription={scrollToMainDescription} scrollToHowToStart={scrollToHowToStart} scrollToLinks={scrollToLinks} />
 
                 <div className="MobileHeader">
                     <div className="MobileHeader__list" onClick={handleMenuClick}>
@@ -58,6 +65,7 @@ const Home = () => {
                     >
                         <MenuItem onClick={scrollToMainDescription}>Бизнес TO THE MOON</MenuItem>
                         <MenuItem onClick={scrollToHowToStart}>Начало работы</MenuItem>
+                        <MenuItem onClick={scrollToLinks}>Ссылки</MenuItem>
                     </Menu>
                 </div>
 
@@ -67,6 +75,8 @@ const Home = () => {
             <MainDescription refToElement={MainDescriptionRef}/>
 
             <HowToStart refToElement={HowToStartRef}/>
+
+            <Support refToElement={LinksRef} />
         </div>
     );
 }
