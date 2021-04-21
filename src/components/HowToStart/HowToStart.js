@@ -30,7 +30,7 @@ const HowToStart = ({refToElement}) => {
 
             <div className="HowToStart__block">
                 <div className="HowToStart__block__text">
-                    2. Далее важно разобраться,как пополнять кошелек кошелек <b>MetaMask</b> с биржи <b>Binance</b>.
+                    2. Далее важно разобраться,как пополнять кошелек <b>MetaMask</b> с биржи <b>Binance</b>.
                     Это необходимо для покупки средств для комиссий,которые еще называют «газом». Ссылка на инструкцию<br/>
                     <a href="https://sn-69588.medium.com/покупка-криптовалюты-bnb-для-оплаты-газа-в-кошельке-metamask-при-использовании-сети-binance-smart-99d97507e16d
 " target="_blank" className="HowToStart__block__link">Инструкция</a>
